@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		59A6BD511B09842500A598B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59A6BD501B09842500A598B6 /* main.cpp */; };
+		59A6BD591B0991D900A598B6 /* Warrior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59A6BD571B0991D900A598B6 /* Warrior.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		59A6BD4D1B09842500A598B6 /* Cpp_Study_03_mk2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp_Study_03_mk2; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A6BD501B09842500A598B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		59A6BD571B0991D900A598B6 /* Warrior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Warrior.cpp; sourceTree = "<group>"; };
+		59A6BD581B0991D900A598B6 /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				59A6BD501B09842500A598B6 /* main.cpp */,
+				59A6BD571B0991D900A598B6 /* Warrior.cpp */,
+				59A6BD581B0991D900A598B6 /* Warrior.h */,
 			);
 			path = Cpp_Study_03_mk2;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A6BD591B0991D900A598B6 /* Warrior.cpp in Sources */,
 				59A6BD511B09842500A598B6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
